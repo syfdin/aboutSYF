@@ -51,10 +51,10 @@ window.SITE_CONFIG = {
   },
 
   // URL media sosial. Kosongkan ("") jika belum tersedia.
-  // Contoh: "https://www.linkedin.com/in/username"
+  // Contoh: "https://www.linkedin.com/in/muhsyaifudin"
   social: {
-    linkedin: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/muhsyaifudin",
+    instagram: "https://www.instagram.com/syfdinnn/",
     facebook: ""
   },
 
@@ -70,7 +70,7 @@ window.SITE_CONFIG = {
     {
       position: { id: "HR Trainer", en: "HR Trainer" },
       company: "RAJA GADAI",
-      period: { id: "", en: "" },
+      period: { id: "2024", en: "Present" },
       responsibilities: [
         {
           id: "Mendukung proses recruitment dan penilaian kandidat sesuai kebutuhan perusahaan.",

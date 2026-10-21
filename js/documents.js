@@ -28,14 +28,18 @@
  * }
  */
 window.DOCUMENTS = [
-  // Contoh (hapus tanda komentar dan sesuaikan dengan file asli Anda):
-  //
-  // {
-  //   id: "contoh-sertifikat-1",
-  //   category: "certificate",
-  //   file: "assets/documents/certificates/nama-sertifikat.pdf",
-  //   date: "2025-01",
-  //   title: { id: "Nama Sertifikat", en: "Certificate Name" },
-  //   description: { id: "Penyelenggara dan ringkasan singkat.", en: "Issuer and a short summary." }
-  // }
+  {
+    id: "training-hr-2025",
+    category: "certificate",   // certificate | training | other
+    file: "assets/documents/certificates/sertifikat-training-hr.pdf",
+    date: "2025-03",           // opsional: 2025, 2025-03, atau 2025-03-15
+    title: { id: "Training HR Dasar", en: "Basic HR Training" },
+    description: { id: "Diselenggarakan oleh PT Pegadaian", en: "Organized by PT Pegadaian" }  // opsional
+  },
+  {
+    id: "sertifikat-2",
+    category: "training",
+    file: "assets/images/certificates/sertifikat-2.jpg",   // gambar tampil sebagai thumbnail otomatis
+    title: { id: "Judul", en: "Title" }
+  }
 ];
